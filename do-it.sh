@@ -113,4 +113,4 @@ tar -xzvf ruby-install-0.9.2.tar.gz
 cd ruby-install-0.9.2/
 sudo make install
 
-ruby-install 3
+ruby-install 3 -- --enable-shared
